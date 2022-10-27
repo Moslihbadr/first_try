@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+.container .navbar {
+    width: 100%;
+    height: 100vh;
+    background-color: #ddd;
+    text-align: center;
+    background-color: #eee;
+
+}
+.container .navbar .navbar-section {
+    width: 30%;
+    height: 100vh;
+    background-color: #006599;
+    padding-top: 10px;
+    float: left;
+    position: fixed;
+}
+.navbar-header{
+    margin: 35px 0;
+}
+.container .navbar .navbar-section h1 {
+    color: white;
+    text-transform: capitalize;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 31px ;
+    margin-top: 10px;
+ }
+ .container .navbar .navbar-section ul  {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    justify-content: space-around;
+    padding:10px 0
+ }
+ .container .navbar .navbar-section ul li  {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.container .navbar .navbar-section ul :hover  {
+    color: yellow;
+}
+.container .navbar .navbar-section ul li a  {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+
+ }  
+.container .navbar .content {
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+    margin-left: 30%;
+}
+.container  .navbar .content img {
+    width: 100%;
+    
+}
+.container  .navbar .content .welcome {
+    margin: 50px 30px;
+    padding-left: 3em;
+} 
+.container .navbar .content .welcome h2 {
+    text-align: left;
+    color: #006599;
+    text-transform: capitalize ;
+    padding-bottom: 1em;
+    font-size: 2rem
+}
+.container .navbar .content .welcome p {
+    text-align: left;
+    line-height: 1.9;
+    font-size: larger;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container .navbar .content .about {
+    margin: 80px 30px;
+    padding-left: 3em;
+
+}
+.container .navbar .content .about img {
+    width: 250px;
+    height: 350px;
+    margin-right: 40px;
+    float: left;
+    transition: 0.3s;
+}
+.container .navbar .content .about img:hover {
+    transform: scale(1.2);
+}
+.container .navbar .content .about h3 {
+    text-align: left;
+    color: #006599;
+    text-transform: capitalize ;
+    padding-bottom: 1em;
+    font-size: 2rem
+}
+.container .navbar .content .about .par_1 {
+    text-align: left;
+    line-height: 1.9;
+     font-size: larger;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 10px;
+    margin: 10px;
+}
+.container .navbar .content .about .par_2 {
+    text-align: left;
+    line-height: 1.9;
+    font-size: larger;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 10px;
+    margin: 20px;
+}
+.container .navbar .content .about .par_3 {
+    text-align: left;
+    line-height: 1.9;
+    font-size: larger;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 280px;
+    margin: 20px;
+}
+.container .navbar .content .about a {
+    background-color: #006599;
+    color: #ddd;
+    font-size: larger;
+    float: left;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 300px;
+    padding: 20px 60px;
+    border-radius: 10px;
+}  
+.container .navbar .content .about a:hover {
+    opacity: 0.7;
+}  
+.container .navbar .content .gallery_one h3 {
+    text-align: left;
+    color: #006599;
+    text-transform: capitalize ;
+    padding: 30px;
+    margin-left: 50px;
+    font-size: 2rem
+}
+.container .navbar .content .gallery_one .images_one {
+    float: left;
+    margin-left: 5em;
+
+}
+.container .navbar .content .gallery_one img {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+.container .navbar .content .gallery_one img:hover {
+    transform: scale(1.2);
+}
+.container .navbar .content .second_gallery {
+    float: left;
+    padding-top: 50px;
+}
+.container .navbar .content .second_gallery h3 {
+    text-align: left;
+    color: #006599;
+    text-transform: capitalize ;
+    padding: 30px;
+    margin-left: 50px;
+    font-size: 2rem
+}
+.container .navbar .content .second_gallery .second_images {
+    float: left;
+    margin-left: 5em;
+    
+}
+.container .navbar .content .second_gallery img {
+    width: 255px;
+    height: 200px;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+.container .navbar .content .second_gallery img:hover {
+    transform: scale(1.2);
+}
+.container .navbar .content .third_gallery {
+    float: left;
+    padding-top: 50px;
+}
+.container .navbar .content .third_gallery h3 {
+    text-align: left;
+    color: #006599;
+    text-transform: capitalize ;
+    padding: 30px;
+    margin-left: 50px;
+    font-size: 2rem
+}
+.container .navbar .content .third_gallery .third_images {
+    float: left;
+    margin-left: 5em;
+}
+.container .navbar .content .third_gallery img {
+    width: 190px;
+    height: 190px;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+.container .navbar .content .third_gallery img:hover {
+    transform: scale(1.2);
+}
+.container .navbar .content .contact {
+    width: 70%;
+    float: left;
+}
+.container .navbar .content .contact h3 {
+    text-align: left;
+    color: #006599;
+    text-transform: capitalize ;
+    padding: 30px;
+    margin-left: 50px;
+    font-size: 2rem
+}
+.container .navbar .content .contact .par {
+    width: 35%;
+    float: right;
+}
+.container .navbar .content .contact .par .par_1 {
+    text-align: left;
+    line-height: 1.9;
+    font-size: larger;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 10px;
+    margin: 0px -40px;
+    padding-bottom: 40px;
+}
+.container .navbar .content .contact .par .par_2 {
+    text-align: left;
+    line-height: 1.9;
+    font-size: larger;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 10px;
+    margin: 0px -40px;
+}
+.container .navbar .content .contact form{
+    width: 35%;
+    margin-bottom: 8px;
+    margin-left: 5em;
+
+}
+.container .navbar .content .contact form .name {
+    border: 2px solid #006599;
+    width: 437px;
+    height: 35px;
+    font: message-box;
+    padding-left: 5px;
+    margin-bottom: 8px;
+}
+.container .navbar .content .contact form .name:focus {
+    border: 2px solid #006599;
+    outline: none;
+}
+.container .navbar .content .contact form .email {
+    border: 2px solid #006599;
+    width: 437px;
+    height: 35px;
+    font: message-box;
+    padding-left: 5px;
+    margin-bottom: 8px;
+
+}
+.container .navbar .content .contact form .email:focus {
+    border: 2px solid #006599;
+    outline: none;
+}
+.container .navbar .content .contact form textarea {
+    width: 132%;
+    height: 240px;
+    border: 2px solid #006599;
+    font: message-box;
+    padding: 5px 0px 0px 5px;
+    margin-bottom: 8px;
+}
+.container .navbar .content .contact form textarea:focus {
+    border: 2px solid #006599;
+    outline: none;
+}
+::placeholder {
+    color: #006599;
+}
+:-ms-input-placeholder {
+    color: #006599;
+}
+::-ms-input-placeholder {
+    color: #006599;
+}
+.container .navbar .content .contact form .send {
+    color: #eee;
+    background-color: #006599;
+    padding: 15px 20px;
+    float: left;
+    border: 2px solid #006599;
+}
+span {
+    float: left;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: larger;
+    margin: 10em -4em 1em;
+}
